@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;500&display=swap');
+
+/*** Propiedades ***/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1 {
+    font: 3rem 'Signika', sans-serif;
+}
+h2, h3 {
+    font: 2rem 'Signika', sans-serif;
+}
+p {
+    font: 1.2rem 'Signika', sans-serif;
+}
+.actual {
+    background: orange;
+    color: black;
+}
+
+/*** Maquetación ***/
+
+.anchototal {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.left {
+    float: left;
+    padding-left: 10px;
+}
+.right {
+    float: right;
+}
+
+/*** Nav ***/
+
+nav {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav img {
+    width: 100px;
+}
+nav  a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 15px;
+}
+nav a:hover {
+    background: orange;
+    color: black;
+}
+nav h1 {
+    margin: 20px 0 0 0;
+}
+
+/*** Footer ***/
+
+footer {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+footer a {
+    padding: 10px 75px 10px 75px;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+footer a:hover {
+    background: orange;
+    color: black;
+}
+
+
+
+/*** Body ***/
+
+.izquierda {
+    width: 19%;
+    float: left;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.centro {
+    width: 60%;
+    overflow: hidden;
+    float: left;
+}
+.derecha {
+    width: 19%;
+    float: right;
+    overflow: hidden;
+    padding-top: 10px;
+}
+img {
+    width: 50px;
+}
+
+
+/*** Portada ***/
+
+.centro img {
+    width: 100%;
+}
+
+/*** Documentacion ***/
+
+iframe {
+    width: 100%;
+    height: 500px;
+    padding-top: 10px;
+}
+.cuarto {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.cuarto img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
+.cuarto img:hover {
+    transform: scale(1.2);
+}
+.cuarto p {
+    padding-right: 20px;
+    text-align: justify;
+}
+.cuarto a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+.cuarto a:hover {
+    color: black;
+    background-color: orange;
+    padding: 5px;
+}
+
+/*** Registro ***/
+
+.tabla {
+    margin-left: 60%;
+    margin-right: 45%;
+    transform: scale(1.7);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.tabla h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.imagen {
+    background: url(imagenes/imagen1.jpg) center fixed;
+    padding-bottom: 100px;
+}
+
+/*** Términos y Condiciones ***/
+
+.texto {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
